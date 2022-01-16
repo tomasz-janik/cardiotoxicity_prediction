@@ -76,4 +76,5 @@ plotting results from [`results`](/results) folder and displaying them as a plot
 [`visualizations`](/visualizations) folder
 
 ## Results 📈
-The graphical visualization of the results can be found in [`results`](/results) folder. 
+The graphical visualization of the results can be found in [`results`](/results) folder. Presentation of the results is 
+located in [`presentations`](/presentations) folder under [`this file`](/presentations/Nauczanie%20maszynowe%20w%20projektowaniu%20leków%5BWyniki%5D.pptx)
