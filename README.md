@@ -5,6 +5,13 @@ This is a project created for course Machine Learning in Drug Design (MLDD).
 The main goal of this project is to find out what TODO
 
 ## Installation ⚙️
+Because this repository uses git lfs you need to clone it using 
+
+`git clone <repository>`
+
+Simply downloading it with `Download ZIP` option on Github will not download whole `.csv` files, and you will need tp
+download them separately - that's why using `git clone` is preffered.
+
 In order to be able to use the code in this repository it's first necessary to create
 new conda environment - this can be done with
 
@@ -14,7 +21,7 @@ After this it's possible to run in main folder
 
 `jupyter notebook`
 
-The `.ipynb` files are located in `implementation` folder.
+The `.ipynb` files are located in [`implementation`](/implementation) folder.
 
 ## Project structure 🏗️
 * [`data`](/data) : contains data used to predict cardiotoxicity
@@ -33,8 +40,10 @@ what's wrong with it, what kind of data needs to be cleaned and what point of cu
 different fingerprint types, performing the data cleaning, splitting different fingerprints into smaller parts containing
 only subset of features
 * [`cardiotoxicity_prediction.ipynb`](/implementation/cardiotoxicity_prediction.ipynb) : code related to cardiotoxicity 
-prediction - choosing the best parameters for models, saving results into `results` folder and figuring out what kind of
-deep neural network gives the best results
+prediction - choosing the best parameters for models, saving results into [`results`](/results) folder and figuring out 
+what kind of deep neural network gives the best results
 * [`results_visualization.ipynb`](/implementation/results_visualization.ipynb) : code related to result visualization: 
-plotting results from `results` folder and displaying them as a plot and saving them into `visualizations` folder
- 
+plotting results from [`results`](/results) folder and displaying them as a plot and saving them into 
+[`visualizations`](/visualizations) folder
+
+## Results 📈
