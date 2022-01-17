@@ -84,8 +84,25 @@ located in [`presentations`](/presentations) folder under [`this file`](/present
 
 The results section is divided into multiple subsections that correspond to different goals.
 
-### Single full fingerprints
+### Single Full fingerprints
 
-![Single full fingerprints](/visualizations/aggregated/single_full.png "Single full fingerprints")
+![Single Full fingerprints](/visualizations/aggregated/single_full.png "Single Full fingerprints")
 
+The best results were achieved by Klekhota-Roth fingerprint, where the model had accuracy of almost **79%**. Other 
+fingerprints scored lower, but theirs accuracy was still relatively close to the Klekhota-Roth one. It's worth to 
+mention that the Klekhota-Roth has a lot more features than the other two, so the time needed to train the model is 
+slightly longer.
 
+### Mixed Full fingerprints
+
+![Mixed Full fingerprints](/visualizations/aggregated/mixed_full.png "Mixed Full fingerprints")
+
+The best results were achieved by mixed Klekhota-Roth and Molecular Access System fingerprints, where the model 
+had accuracy of **79.02%**. Other mixes resulted in similar, but slightly lower scores. What's interesting is that mix 
+of all three types of fingerprints gave worse results.
+
+### Single Partial fingerprints
+
+![Single Partial fingerprints](/visualizations/aggregated/single_partial_comparision.png "Single Partial fingerprints")
+
+The best results were achieved by Klekhota-Roth fingerprint with 2000 features - **78.25%**
