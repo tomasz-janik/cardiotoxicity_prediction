@@ -76,5 +76,16 @@ plotting results from [`results`](/results) folder and displaying them as a plot
 [`visualizations`](/visualizations) folder
 
 ## Results 📈
-The graphical visualization of the results can be found in [`results`](/results) folder. Presentation of the results is 
+The results are located in [`results`](/results) directory in form of `.csv` files where mean accuracy for given model 
+can be found.
+
+The graphical visualization of the results can be found in [`visualizations`](/visualizations) folder. Presentation of the results is 
 located in [`presentations`](/presentations) folder under [`this file`](/presentations/Nauczanie%20maszynowe%20w%20projektowaniu%20leków%5BWyniki%5D.pptx)
+
+The results section is divided into multiple subsections that correspond to different goals.
+
+### Single full fingerprints
+
+![Single full fingerprints](/visualizations/aggregated/single_full.png "Single full fingerprints")
+
+
