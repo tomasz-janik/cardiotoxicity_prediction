@@ -105,4 +105,26 @@ of all three types of fingerprints gave worse results.
 
 ![Single Partial fingerprints](/visualizations/aggregated/single_partial_comparision.png "Single Partial fingerprints")
 
-The best results were achieved by Klekhota-Roth fingerprint with 2000 features - **78.25%**
+The best results were achieved by Klekhota-Roth fingerprint with 2000 features - **78.25%**. What's wort to mention is
+that in situations where the number of features is smaller Extended-Connectivity Fingerprints dominates and scores 
+better than Klekhota-Roth.
+
+### Mixed Partial fingerprints
+
+![Mixed Partial fingerprints](/visualizations/aggregated/mixed_partial_comparision.png "Mixed Partial fingerprints")
+
+The best results were achieved by mixed Klekhota-Roth and Molecular Access System fingerprints, where the model 
+had accuracy of **77.82%**. Other mixes resulted in similar, but slightly lower scores. What's interesting is that mix 
+of all three types of fingerprints gave worse results - same as for Mixed Full fingerprints. What's wort to mention is
+that in situations where the number of features is smaller other fingerprints scored better - e.g. mix of Molecular 
+Access System and Extended Connectivity fingerprints.
+
+### Deep Neural Networks
+
+![Deep Neural Networks](/visualizations/deep_neural_networks.png "Deep Neural Networks")
+
+![Deep Neural Networks](/visualizations/deep_neural_networks_aggregated.png "Deep Neural Networks")
+
+The results obtained by the neural networks did not differ much from the results obtained by the previously presented 
+models. Best achieved score - **0.78** accurracy on the test set was achieved with the mix of Molecular Connectivity 
+System and Extended-Connectivity fingerprints.
